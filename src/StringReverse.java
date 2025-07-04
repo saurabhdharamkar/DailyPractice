@@ -12,7 +12,6 @@ public class StringReverse {
         }
         System.out.print("Revesre : "+reverse);
 
-        System.out.println();
         if(str.equalsIgnoreCase(reverse)){
             System.out.println("String is Palindrome");
         }else{
