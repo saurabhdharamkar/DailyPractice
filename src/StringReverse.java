@@ -18,6 +18,7 @@ public class StringReverse {
         }else{
             System.out.println("String is not Palindrome");
             System.out.println("String is not Palindrome");
+            System.out.println("String is not Palindrome");
         }
     }
 }
