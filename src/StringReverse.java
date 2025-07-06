@@ -6,18 +6,16 @@ public class StringReverse {
         int len=str.length();
         String reverse="";
         char [] ch=str.toCharArray();
-
         for(int i=len-1;i>=0;i--){
             reverse+=ch[i];
         }
         System.out.print("Revesre : "+reverse);
-
         if(str.equalsIgnoreCase(reverse)){
             System.out.println("String is Palindrome");
         }else{
             System.out.println("String is not Palindrome");
             System.out.println("String is Saurabh");
-
+            System.out.println("String is Raj");
         }
     }
 }
